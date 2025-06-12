@@ -22,6 +22,8 @@ int main() {
     box.addItem("Book3");
     box.printItems();
 
+    shipItem(12.53);
     shipItem(12);
+    shipItem(std::string("Test"));
     
 }
